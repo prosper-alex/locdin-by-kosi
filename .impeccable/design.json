@@ -1,0 +1,397 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-01T16:50:31.720343+00:00",
+  "title": "Design System: Loc’din by Kosi",
+  "extensions": {
+    "colorMeta": {
+      "background": {
+        "role": "neutral",
+        "displayName": "Background",
+        "tonalRamp": [
+          "oklch(15% 0.0032 69.58)",
+          "oklch(26% 0.0032 69.58)",
+          "oklch(38% 0.0032 69.58)",
+          "oklch(49% 0.0032 69.58)",
+          "oklch(61% 0.0032 69.58)",
+          "oklch(72% 0.0032 69.58)",
+          "oklch(84% 0.0032 69.58)",
+          "oklch(95% 0.0032 69.58)"
+        ]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "Surface",
+        "tonalRamp": [
+          "oklch(15% 0.0090 59.04)",
+          "oklch(26% 0.0090 59.04)",
+          "oklch(38% 0.0090 59.04)",
+          "oklch(49% 0.0090 59.04)",
+          "oklch(61% 0.0090 59.04)",
+          "oklch(72% 0.0090 59.04)",
+          "oklch(84% 0.0090 59.04)",
+          "oklch(95% 0.0090 59.04)"
+        ]
+      },
+      "raised": {
+        "role": "neutral",
+        "displayName": "Raised",
+        "tonalRamp": [
+          "oklch(15% 0.0136 61.78)",
+          "oklch(26% 0.0136 61.78)",
+          "oklch(38% 0.0136 61.78)",
+          "oklch(49% 0.0136 61.78)",
+          "oklch(61% 0.0136 61.78)",
+          "oklch(72% 0.0136 61.78)",
+          "oklch(84% 0.0136 61.78)",
+          "oklch(95% 0.0136 61.78)"
+        ]
+      },
+      "text": {
+        "role": "neutral",
+        "displayName": "Text",
+        "tonalRamp": [
+          "oklch(15% 0.0114 71.90)",
+          "oklch(26% 0.0114 71.90)",
+          "oklch(38% 0.0114 71.90)",
+          "oklch(49% 0.0114 71.90)",
+          "oklch(61% 0.0114 71.90)",
+          "oklch(72% 0.0114 71.90)",
+          "oklch(84% 0.0114 71.90)",
+          "oklch(95% 0.0114 71.90)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted",
+        "tonalRamp": [
+          "oklch(15% 0.0228 69.70)",
+          "oklch(26% 0.0228 69.70)",
+          "oklch(38% 0.0228 69.70)",
+          "oklch(49% 0.0228 69.70)",
+          "oklch(61% 0.0228 69.70)",
+          "oklch(72% 0.0228 69.70)",
+          "oklch(84% 0.0228 69.70)",
+          "oklch(95% 0.0228 69.70)"
+        ]
+      },
+      "copper": {
+        "role": "primary",
+        "displayName": "Copper",
+        "tonalRamp": [
+          "oklch(15% 0.0850 60.49)",
+          "oklch(26% 0.0850 60.49)",
+          "oklch(38% 0.0850 60.49)",
+          "oklch(49% 0.0850 60.49)",
+          "oklch(61% 0.0850 60.49)",
+          "oklch(72% 0.0850 60.49)",
+          "oklch(84% 0.0850 60.49)",
+          "oklch(95% 0.0850 60.49)"
+        ]
+      },
+      "copper-hover": {
+        "role": "primary",
+        "displayName": "Copper Hover",
+        "tonalRamp": [
+          "oklch(15% 0.0730 64.42)",
+          "oklch(26% 0.0730 64.42)",
+          "oklch(38% 0.0730 64.42)",
+          "oklch(49% 0.0730 64.42)",
+          "oklch(61% 0.0730 64.42)",
+          "oklch(72% 0.0730 64.42)",
+          "oklch(84% 0.0730 64.42)",
+          "oklch(95% 0.0730 64.42)"
+        ]
+      },
+      "border": {
+        "role": "neutral",
+        "displayName": "Border",
+        "tonalRamp": [
+          "oklch(15% 0.0204 60.56)",
+          "oklch(26% 0.0204 60.56)",
+          "oklch(38% 0.0204 60.56)",
+          "oklch(49% 0.0204 60.56)",
+          "oklch(61% 0.0204 60.56)",
+          "oklch(72% 0.0204 60.56)",
+          "oklch(84% 0.0204 60.56)",
+          "oklch(95% 0.0204 60.56)"
+        ]
+      },
+      "control-border": {
+        "role": "neutral",
+        "displayName": "Control Border",
+        "tonalRamp": [
+          "oklch(15% 0.0478 63.00)",
+          "oklch(26% 0.0478 63.00)",
+          "oklch(38% 0.0478 63.00)",
+          "oklch(49% 0.0478 63.00)",
+          "oklch(61% 0.0478 63.00)",
+          "oklch(72% 0.0478 63.00)",
+          "oklch(84% 0.0478 63.00)",
+          "oklch(95% 0.0478 63.00)"
+        ]
+      },
+      "control-border-hover": {
+        "role": "neutral",
+        "displayName": "Control Border Hover",
+        "tonalRamp": [
+          "oklch(15% 0.0592 61.16)",
+          "oklch(26% 0.0592 61.16)",
+          "oklch(38% 0.0592 61.16)",
+          "oklch(49% 0.0592 61.16)",
+          "oklch(61% 0.0592 61.16)",
+          "oklch(72% 0.0592 61.16)",
+          "oklch(84% 0.0592 61.16)",
+          "oklch(95% 0.0592 61.16)"
+        ]
+      },
+      "danger": {
+        "role": "neutral",
+        "displayName": "Danger",
+        "tonalRamp": [
+          "oklch(15% 0.0702 38.56)",
+          "oklch(26% 0.0702 38.56)",
+          "oklch(38% 0.0702 38.56)",
+          "oklch(49% 0.0702 38.56)",
+          "oklch(61% 0.0702 38.56)",
+          "oklch(72% 0.0702 38.56)",
+          "oklch(84% 0.0702 38.56)",
+          "oklch(95% 0.0702 38.56)"
+        ]
+      },
+      "action-ink": {
+        "role": "neutral",
+        "displayName": "Action Ink",
+        "tonalRamp": [
+          "oklch(15% 0.0154 57.10)",
+          "oklch(26% 0.0154 57.10)",
+          "oklch(38% 0.0154 57.10)",
+          "oklch(49% 0.0154 57.10)",
+          "oklch(61% 0.0154 57.10)",
+          "oklch(72% 0.0154 57.10)",
+          "oklch(84% 0.0154 57.10)",
+          "oklch(95% 0.0154 57.10)"
+        ]
+      },
+      "placeholder": {
+        "role": "neutral",
+        "displayName": "Placeholder",
+        "tonalRamp": [
+          "oklch(15% 0.0305 65.57)",
+          "oklch(26% 0.0305 65.57)",
+          "oklch(38% 0.0305 65.57)",
+          "oklch(49% 0.0305 65.57)",
+          "oklch(61% 0.0305 65.57)",
+          "oklch(72% 0.0305 65.57)",
+          "oklch(84% 0.0305 65.57)",
+          "oklch(95% 0.0305 65.57)"
+        ]
+      },
+      "selected-option": {
+        "role": "neutral",
+        "displayName": "Selected Option",
+        "tonalRamp": [
+          "oklch(15% 0.0240 60.48)",
+          "oklch(26% 0.0240 60.48)",
+          "oklch(38% 0.0240 60.48)",
+          "oklch(49% 0.0240 60.48)",
+          "oklch(61% 0.0240 60.48)",
+          "oklch(72% 0.0240 60.48)",
+          "oklch(84% 0.0240 60.48)",
+          "oklch(95% 0.0240 60.48)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Editorial display",
+        "purpose": "Lora variable normal and italic; warm, refined hero headlines with responsive overrides in source."
+      },
+      "headline": {
+        "displayName": "Editorial headline",
+        "purpose": "Lora for section and storytelling headings."
+      },
+      "body": {
+        "displayName": "Readable body",
+        "purpose": "DM Sans variable for body, instructions and commerce details."
+      },
+      "product-title": {
+        "displayName": "Shopping title",
+        "purpose": "DM Sans product and collection names: 20px desktop, 18px mobile."
+      },
+      "form-title": {
+        "displayName": "Utility title",
+        "purpose": "DM Sans 24px form-section and order-summary headings."
+      },
+      "shopping": {
+        "displayName": "Shopping support",
+        "purpose": "Readable product descriptions, navigation and labels."
+      },
+      "metadata": {
+        "displayName": "Metadata",
+        "purpose": "Bundle units, catalogue counts and service notes."
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "control-transition",
+        "value": "0.2s",
+        "purpose": "Button, field, navigation and toast state changes."
+      },
+      {
+        "name": "photo-hover",
+        "value": "transform 0.6s cubic-bezier(0.2, 0.7, 0.2, 1)",
+        "purpose": "Clipped product and collection photography scales to 1.035."
+      },
+      {
+        "name": "drawer-entry",
+        "value": "0.35s cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Translate the panel from 100% on the right to its resting position."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "0.01ms",
+        "purpose": "Hero animations and photo hover scaling are removed; other animation and transition durations reduce to 0.01ms; smooth scrolling becomes auto."
+      },
+      {
+        "name": "hero-portrait",
+        "value": "900ms cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Once per entrance: portrait scale 1.035 to 1, only without reduced motion."
+      },
+      {
+        "name": "hero-headline",
+        "value": "700ms cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Once per entrance: headline opacity .75 to 1 and translateY 10px to 0, only without reduced motion."
+      },
+      {
+        "name": "copper-strand",
+        "value": "700ms 180ms cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Draw the 1px, 64%-width italic underline from scaleX .15 and opacity .4, only without reduced motion."
+      },
+      {
+        "name": "arrow-feedback",
+        "value": "transform 220ms cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Selected action arrows move 2px right and 2px up on hover/focus; buttons move 1px down while active. Only without reduced motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "compact-desktop-max",
+        "value": "1150px"
+      },
+      {
+        "name": "tablet-max",
+        "value": "900px"
+      },
+      {
+        "name": "mobile-max",
+        "value": "760px"
+      },
+      {
+        "name": "small-mobile-max",
+        "value": "380px"
+      },
+      {
+        "name": "wide-min",
+        "value": "1600px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Copper purchase and save actions.",
+      "html": "<button class=\"ds-button\">Save preferences <svg width=\"17\" height=\"17\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"M7 17 17 7M7 7h10v10\"/></svg></button>",
+      "css": ".ds-button{display:inline-flex;gap:25px;align-items:center;justify-content:center;min-height:49px;padding:13px 25px;border:1px solid var(--copper);border-radius:0;background:var(--copper);color:#17100b;font:600 14px/1.4 var(--font-sans),sans-serif;cursor:pointer;transition:background .2s,color .2s,border-color .2s}.ds-button:hover{background:var(--copper-hover);border-color:var(--copper-hover)}.ds-button:focus-visible{outline:2px solid var(--copper);outline-offset:5px}.ds-button:disabled{opacity:.4;cursor:not-allowed}@media(prefers-reduced-motion:reduce){.ds-button{transition-duration:.01ms!important;animation-duration:.01ms!important}}"
+    },
+    {
+      "name": "Outline Button",
+      "kind": "button",
+      "refersTo": "button-outline",
+      "description": "Secondary action sharing the primary geometry.",
+      "html": "<button class=\"ds-button ds-outline\">Continue exploring</button>",
+      "css": ".ds-button{display:inline-flex;gap:25px;align-items:center;justify-content:center;min-height:49px;padding:13px 25px;border:1px solid var(--copper);border-radius:0;background:var(--copper);color:#17100b;font:600 14px/1.4 var(--font-sans),sans-serif;cursor:pointer;transition:background .2s,color .2s,border-color .2s}.ds-button:hover{background:var(--copper-hover);border-color:var(--copper-hover)}.ds-button:focus-visible{outline:2px solid var(--copper);outline-offset:5px}.ds-button:disabled{opacity:.4;cursor:not-allowed}.ds-outline{background:none;color:var(--copper)}.ds-outline:hover{color:var(--background)}@media(prefers-reduced-motion:reduce){.ds-button,.ds-outline{transition-duration:.01ms!important;animation-duration:.01ms!important}}"
+    },
+    {
+      "name": "Standard Field",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Labeled field with the accessible control boundary; mobile text stays 16px.",
+      "html": "<label class=\"ds-label\">Full name<input class=\"ds-input\" autocomplete=\"name\" /></label>",
+      "css": ".ds-label{display:flex;flex-direction:column;gap:12px;color:var(--text);font:14px/1.8 var(--font-sans),sans-serif}.ds-input{min-width:0;width:100%;padding:12px 14px;border:1px solid var(--control-border);border-radius:0;background:var(--background);color:var(--text);font:16px/1.8 var(--font-sans),sans-serif;caret-color:var(--copper);transition:border-color .2s}.ds-input:hover{border-color:#ad8a6d}.ds-input:focus{border-color:var(--copper);outline:1px solid var(--copper);outline-offset:0}@media(max-width:760px){.ds-input{font-size:16px}}@media(prefers-reduced-motion:reduce){.ds-input,.ds-label{transition-duration:.01ms!important;animation-duration:.01ms!important}}"
+    },
+    {
+      "name": "Desktop Navigation",
+      "kind": "nav",
+      "description": "Compact copper current-page treatment.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Main navigation\"><a href=\"#\" aria-current=\"page\">Home</a><a href=\"#\">Shop</a><a href=\"#\">Our story</a></nav>",
+      "css": ".ds-nav{display:flex;gap:34px;background:var(--background)}.ds-nav a{position:relative;text-decoration:none;color:var(--text);font:14px/1.8 var(--font-sans),sans-serif;transition:color .2s}.ds-nav a:hover,.ds-nav a[aria-current]{color:var(--copper)}.ds-nav a[aria-current]:after{content:\"\";position:absolute;bottom:-9px;left:0;right:0;height:1px;background:var(--copper)}.ds-nav a:focus-visible{outline:2px solid var(--copper);outline-offset:5px}@media(prefers-reduced-motion:reduce){.ds-nav{transition-duration:.01ms!important;animation-duration:.01ms!important}}"
+    },
+    {
+      "name": "Status Tag",
+      "kind": "chip",
+      "refersTo": "status-tag",
+      "description": "Read-only square status label, without interactive hover behavior.",
+      "html": "<span class=\"ds-status\">Order received</span>",
+      "css": ".ds-status{display:inline-flex;font:13px/1.8 var(--font-sans),sans-serif;color:var(--copper);border:1px solid var(--border);padding:4px 10px;margin-bottom:18px}@media(prefers-reduced-motion:reduce){.ds-status{transition-duration:.01ms!important;animation-duration:.01ms!important}}"
+    },
+    {
+      "name": "Product Card Information",
+      "kind": "card",
+      "description": "DM Sans names and readable supporting text beneath portrait photography; full app cards use auto 1fr auto grid rows to align prices.",
+      "html": "<article class=\"ds-card\"><div class=\"ds-info\"><div><h3><a href=\"#\">Traditional locs</a></h3><p>Handmade loc extensions</p></div><a class=\"ds-arrow\" href=\"#\" aria-label=\"Choose Traditional locs\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M7 17 17 7M7 7h10v10\"/></svg></a></div><p class=\"ds-price\">From ₦45,000 <span>/ 50 locs</span></p></article>",
+      "css": ".ds-card{background:var(--background);color:var(--text)}.ds-info{margin-top:22px;display:flex;align-items:center;justify-content:space-between;gap:12px}.ds-card h3{margin:0;font:500 20px/1.4 var(--font-sans),sans-serif;letter-spacing:-.015em}.ds-card a{color:inherit;text-decoration:none}.ds-info p{margin:8px 0 0;color:var(--muted);font:14px/1.75 var(--font-sans),sans-serif}.ds-card .ds-arrow{padding:8px 0 8px 8px;color:var(--copper)}.ds-price{margin:16px 0 0;font:16px/1.8 var(--font-sans),sans-serif;font-variant-numeric:tabular-nums}.ds-price span{font-size:13px;color:var(--muted);margin-left:3px}.ds-card a:focus-visible{outline:2px solid var(--copper);outline-offset:5px}@media(max-width:760px){.ds-card h3{font-size:18px}.ds-card .ds-arrow{display:none}.ds-price span{display:block;margin-top:2px;margin-left:0}}@media(prefers-reduced-motion:reduce){.ds-arrow,.ds-card,.ds-info,.ds-price{transition-duration:.01ms!important;animation-duration:.01ms!important}}"
+    },
+    {
+      "name": "Order Summary",
+      "kind": "card",
+      "refersTo": "order-summary",
+      "description": "Warm flat panel for totals; shown before the form on mobile.",
+      "html": "<aside class=\"ds-summary\"><h2>Your chosen locs.</h2><div class=\"ds-total\"><span>Total estimate</span><span>₦45,000</span></div><p>Charge currency: NGN</p></aside>",
+      "css": ".ds-summary{background:var(--surface);color:var(--text);padding:36px}.ds-summary h2{margin:0 0 25px;font:500 24px/1.4 var(--font-sans),sans-serif}.ds-total{display:flex;justify-content:space-between;gap:15px;border-top:1px solid var(--border);padding-top:19px;margin-top:19px;font:16px/1.8 var(--font-sans),sans-serif;font-variant-numeric:tabular-nums}.ds-summary p{color:var(--muted);font:14px/1.9 var(--font-sans),sans-serif}@media(max-width:900px){.ds-summary{padding:28px}}@media(prefers-reduced-motion:reduce){.ds-summary,.ds-total{transition-duration:.01ms!important;animation-duration:.01ms!important}}"
+    },
+    {
+      "name": "Destination Control",
+      "kind": "button",
+      "description": "Quiet header/footer entry to the delivery-country and display-currency drawer.",
+      "html": "<button class=\"ds-region\" aria-label=\"Choose delivery country and display currency\"><svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><path d=\"M2 12h20M12 2a18 18 0 0 1 0 20 18 18 0 0 1 0-20\"/></svg><span>NG <span class=\"ds-divider\">/</span> NGN</span><svg width=\"12\" height=\"12\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"m6 9 6 6 6-6\"/></svg></button>",
+      "css": ".ds-region{display:inline-flex;align-items:center;gap:9px;border:0;background:none;padding:10px 0;color:var(--muted);font:12px/1.8 var(--font-sans),sans-serif;cursor:pointer}.ds-region:hover{color:var(--copper)}.ds-divider{color:var(--copper);margin-inline:4px}.ds-region:focus-visible{outline:2px solid var(--copper);outline-offset:5px}@media(prefers-reduced-motion:reduce){.ds-divider,.ds-region{transition-duration:.01ms!important;animation-duration:.01ms!important}}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Near-black, ivory and copper",
+    "overview": "The approved reference and supplied logo establish a near-black, ivory and copper identity for handmade loc extensions. Editorial serif headlines and tactile loc photography carry the storefront; readable sans-serif controls keep shopping, international delivery and administration practical.\n\nThe system is flat, warm and restrained. Square surfaces, fine separators and generous storefront spacing coexist with denser checkout forms and private administrative tables. International preferences appear as ordinary navigation and checkout controls, with clear charge-currency information.",
+    "keyCharacteristics": [
+      "Near-black grounds with ivory type and copper actions.",
+      "Lora headlines paired with DM Sans body, product names and controls.",
+      "Square surfaces, fine warm separators and texture-led photography.",
+      "Responsive commerce with restrained destination and currency controls."
+    ],
+    "rules": [
+      {
+        "name": "The Control Boundary Rule",
+        "body": "Decorative separators and form-control outlines have different jobs. Preserve the stronger control boundary on standard fields, including hover and focus states.",
+        "section": "colors"
+      }
+    ],
+    "dos": [
+      "Do retain the supplied mark and approved near-black, ivory and copper identity.",
+      "Do use control-border for standard input outlines and border for decorative separators.",
+      "Do keep mobile inputs, selects and textareas at 16px and stack checkout address rows at the mobile breakpoint.",
+      "Do keep destination, display currency and NGN charge currency legible within the ordinary shopping flow.",
+      "Do use Lora for editorial headlines and DM Sans for shopping names, body copy, controls and form/summary titles.",
+      "Do preserve 16px body copy, 14px shopping support text, 13px metadata and the responsive section spacing.",
+      "Do keep the hero entrance and small arrow feedback restrained, and preserve keyboard focus, explicit labels, inline errors and reduced-motion behavior.",
+      "Do keep private administration practical, with wrapped navigation and horizontally scrollable tables."
+    ],
+    "donts": [
+      "Don’t substitute the decorative border for a standard input boundary.",
+      "Don’t turn square buttons, cards or form fields into rounded pills; circles are reserved for swatches and the bag count.",
+      "Don’t add decorative shadows or large hover movement to the flat surfaces.",
+      "Don’t treat converted estimates as charge amounts or present sample photography, catalogue or shipping as approved live content.",
+      "Don’t promote a development capture badge into the product’s design vocabulary."
+    ]
+  }
+}
