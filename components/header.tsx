@@ -10,7 +10,7 @@ import {
   Search,
   ShoppingBag,
 } from "lucide-react";
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Drawer } from "./drawer";
 import { useStore } from "./store-provider";
 import { currencies } from "@/lib/international";
@@ -121,15 +121,39 @@ export function Header() {
   const pathname = usePathname();
   const { count } = useStore();
   const [mobileOpen, setMobileOpen] = useState(false);
+  const announcementRef = useRef<HTMLDivElement>(null);
+  const headerRef = useRef<HTMLElement>(null);
+  useEffect(() => {
+    const elements = [announcementRef.current, headerRef.current].filter(
+      (element): element is HTMLElement => element !== null,
+    );
+    const updateHeight = () => {
+      const height = elements.reduce(
+        (total, element) => total + element.getBoundingClientRect().height,
+        0,
+      );
+      document.documentElement.style.setProperty(
+        "--site-chrome-height",
+        `${height}px`,
+      );
+    };
+    updateHeight();
+    const observer = new ResizeObserver(updateHeight);
+    elements.forEach((element) => observer.observe(element));
+    return () => {
+      observer.disconnect();
+      document.documentElement.style.removeProperty("--site-chrome-height");
+    };
+  }, []);
   return (
     <>
-      <div className="announcement">
+      <div className="announcement" ref={announcementRef}>
         <span>Handmade locs. A world of possibilities.</span>
         <Link href="/policies/shipping">
           International delivery <ArrowUpRight size={12} />
         </Link>
       </div>
-      <header className="site-header">
+      <header className="site-header" ref={headerRef}>
         <div className="header-inner">
           <Link href="/" className="brand" aria-label="Loc’din by Kosi home">
             <Image src="/brand/mark.jpg" width={54} height={54} alt="" />

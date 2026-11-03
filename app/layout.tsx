@@ -5,6 +5,7 @@ import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
 import { getStore } from "@/lib/store";
 import "./globals.css";
+import "./hero.css";
 import "./motion.css";
 
 const serif = Lora({
